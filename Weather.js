@@ -10,6 +10,7 @@ const Weather = ({description, city, country, error, temperature}) => {
             if(keyWords.includes(weatherDescription[i])) {
                 return <img src='https://media.freestocktextures.com/cache/74/8b/748ba3fe5976d8b03219a64851d2790d.jpg' />
             }
+            
         }
     }}
   
